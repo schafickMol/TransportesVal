@@ -437,6 +437,7 @@
 .u-section-2 .u-image-2 {
   min-height: 425px;
   background-image: url("images/limpieza.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-container-layout-4 {
@@ -522,7 +523,6 @@
 
   .u-section-2 .u-image-2 {
     min-height: 351px;
-    background-position: 50% 50%;
   }
 
   .u-section-2 .u-image-3 {
@@ -1023,7 +1023,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/mision.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/mision.jpg');
+  background-position: 50% 50%;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -1049,7 +1050,8 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/vision.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/vision.jpg');
+  background-position: 50% 50%;
 }
 
 .u-section-4 .u-container-layout-2 {
@@ -1074,7 +1076,6 @@
   }
 
   .u-section-4 .u-image-1 {
-    background-position: 50% 50%;
     min-height: 398px;
   }
 
@@ -1099,7 +1100,6 @@
   }
 
   .u-section-4 .u-image-2 {
-    background-position: 50% 50%;
     min-height: 398px;
   }
 
