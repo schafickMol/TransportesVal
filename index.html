@@ -408,22 +408,27 @@ directamente a través de nuestros canales digitales o llamarnos
         <h2 class="u-align-center u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0">Contáctenos</h2>
         <img class="u-expanded-width-xs u-image u-image-1" src="images/fosaseptica.jpg" data-image-width="760" data-image-height="506">
         <div class="custom-expanded u-form u-white u-form-1">
-          <form action="https://formspree.io/f/xzzbpgea" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 28px;">
+          <form action="https://formspree.io/f/xzzbpgea" method="POST"class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" source="email" name="form" style="padding: 28px;">
             <div class="u-form-group u-form-name">
               <label for="name-4c18" class="u-label">Nombre</label>
-              <input type="text" placeholder="Ejemplo: Juan alberto osorio benitez" id="name-4c18" name="Nombre" class="u-input u-input-rectangle u-palette-1-light-3" required="">
+              <input type="text" placeholder="Ejemplo: Juan alberto osorio benitez" id="name-4c18" name="name" class="u-input u-input-rectangle u-palette-1-light-3" required="">
             </div>
             <div class="u-form-email u-form-group">
               <label for="email-4c18" class="u-label">Email</label>
-              <input type="email" placeholder="ejemplo@correo.com" id="email-4c18" name="Email" class="u-input u-input-rectangle u-palette-1-light-3" required="">
+              <input type="email" placeholder="ejemplo@correo.com" id="email-4c18" name="email" class="u-input u-input-rectangle u-palette-1-light-3" required="">
             </div>
             <div class="u-form-group u-form-message">
               <label for="message-4c18" class="u-label">Mensaje</label>
-              <textarea placeholder="Escribe en menos de 500 palabras tu consulta, te responderemos en la brevedad posible" rows="4" cols="50" id="message-4c18" name="Mensaje" class="u-input u-input-rectangle u-palette-1-light-3" required=""></textarea>
+              <textarea placeholder="Escribe en menos de 500 palabras tu consulta, te responderemos en la brevedad posible" rows="4" cols="50" id="message-4c18" name="message" class="u-input u-input-rectangle u-palette-1-light-3" required=""></textarea>
             </div>
             <div class="u-align-center u-form-group u-form-submit">
-              <button type="submit" class="u-border-none u-btn u-button-style u-custom-color-1 u-hover-palette-1-dark-1 u-btn-1">Enviar</button>
+              <a href="#" class="u-border-none u-btn u-btn-submit u-button-style u-custom-color-1 u-hover-palette-1-dark-1 u-btn-1">Enviar</a>
+              <input type="submit" value="submit" class="u-form-control-hidden">
             </div>
+            <div class="u-form-send-message u-form-send-success">Gracias!, tu mensaje a sido enviado</div>
+            <div class="u-form-send-error u-form-send-message">No se puede enviar el msj , Por favor intentalo en otro momento</div>
+            <input type="hidden" value="" name="recaptchaResponse">
+            <input type="hidden" name="formServices" value="4dcf6fd8-d8c3-20ba-0ff4-2da4279d11ff">
           </form>
         </div>
         <div class="u-align-center u-border-palette-1-base u-container-align-center u-container-style u-custom-color-1 u-expanded-width u-group u-radius u-shape-round u-group-1">
